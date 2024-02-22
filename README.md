@@ -6,8 +6,16 @@ C言語学習用のリポジトリ
 
 ## 環境
 * VS Code
+* コンパイル・実行は `gcc` を使用。
+  ```shell
+  % gcc --version
+  Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  Target: arm64-apple-darwin23.3.0
+  Thread model: posix
+  InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+  ```
 
-### ソースコードの実行手順
+## ソースコードの実行手順
 * プログラムコードを作成する。
 * ターミナルを開く。
   * MacかVS Codeどちらかのターミナルを開く。
