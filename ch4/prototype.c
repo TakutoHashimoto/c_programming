@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// prototype
+void func1(int a);
+void func2();
+
+int main(void) {
+    func1(10);
+    func2();
+}
+
+void func1(int a) {
+    printf("func1が呼び出されました\n");
+    printf("引数の値は %d", a);
+}
+
+void func2() {
+    printf("func2関数が呼び出されました\n");
+}
