@@ -8,6 +8,6 @@ int main(void) {
 
     printf("iのアドレスは %p\n", &i);
     printf("pの値は %p\n", &i);
-    printf("iの値は %d\n", i);
-    printf("*pの値は %d\n", *p);
+    printf("iの値は %d\n", i);  // => 5
+    printf("*pの値は %d\n", *p);  // => 5
 }
